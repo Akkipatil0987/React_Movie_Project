@@ -1,0 +1,12 @@
+.pagination_section a.page-link {
+    background-color: bisque;
+   border: 1px solid bisque;
+   color: black;
+}
+
+.pagination_section .active>.page-link, .page-link.active {
+    
+    color: bisque;
+    background-color: black;
+    border-color: bisque;
+}

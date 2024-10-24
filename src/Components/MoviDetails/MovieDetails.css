@@ -1,0 +1,48 @@
+.moviedetails_section .bannersection .banner_img_div{
+    width: 100%;
+    height: 400px;
+}
+.moviedetails_section .bannersection .banner_img_div .bannerimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.moviedetails_section .bannersection{
+    position: relative;
+}
+.moviedetails_section .bantext_div{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.moviedetails_section .overview{
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
+
+.moviedetails_section .banncard_img_div{
+    width: 100%;
+    height: 250px;
+}
+
+.moviedetails_section .bannercardimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.moviedetails_section .bannerimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.smallbanner_img_div {
+    width: 150px;
+    /* height: 300px; */
+    aspect-ratio: 2/3;
+}
